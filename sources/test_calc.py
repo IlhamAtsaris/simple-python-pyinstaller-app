@@ -8,7 +8,7 @@ class TestCalc(unittest.TestCase):
 
     def test_add_integers(self):
         """
-        Test that the addition of two integers returns the correct total
+        Test the addition of two integers returns the correct total
         """
         result = calc.add2(1, 2)
         self.assertEqual(result, 3)
